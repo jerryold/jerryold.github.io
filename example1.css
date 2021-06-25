@@ -1,0 +1,273 @@
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url('img/bg2.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+} 
+
+
+ table, th, td 
+  {
+    border: 2px solid black;
+    border-collapse: collapse;
+  }
+
+
+
+  ol, li {
+    font-size:24px;
+    color:blue;
+    -o-border-image: url(border/border2.png) 30 round; /* Opera 11-12.1 */
+    border-image: url(border/border2.png) 30 round;  /*字體行間為兩個字距*/
+  }
+
+
+
+.city{
+            
+
+        float: center;//浮動位置
+       -webkit-flex-wrap: wrap;
+       -webkit-align-content: center;
+       align-content: center;
+       border: 15px solid transparent;
+       -webkit-border-image: url(border/border3.png) 35 round;
+      -o-border-image: url(border/border3.png) 35 round; /* Opera 11-12.1 */
+       border-image: url(border/border3.png) 35 round;
+     }
+
+ */
+html,
+body {
+  height: 100%;
+  width: 100%; }
+
+body {
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
+
+hr {
+  border-color: #F05F40;
+  border-width: 3px;
+  max-width: 50px; }
+
+hr.light {
+  border-color: white; }
+
+a {
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  color: #F05F40; }
+  a:hover, a:focus {
+    color: #f05f40; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px; 
+  color:#A6A6D2}
+
+.bg-primary {
+  background-color: #F05F40 !important; }
+
+.bg-dark {
+  background-color: #222222 !important;
+  color: white; }
+
+.text-faded {
+  color: rgba(255, 255, 255, 0.7); }
+
+section {
+  padding: 100px 0; }
+
+.section-heading {
+  margin-top: 0; }
+
+.no-padding {
+  padding: 0; }
+
+::-moz-selection {
+  color: white;
+  text-shadow: none;
+  background: #222222; }
+
+::selection {
+  color: white;
+  text-shadow: none;
+  background: #222222; }
+
+img::selection {
+  color: white;
+  background: transparent; }
+
+img::-moz-selection {
+  color: white;
+  background: transparent; }
+
+body {
+  -webkit-tap-highlight-color: #222222; }
+
+
+ #wrapper {
+ 	     float: center;//浮動位置
+        width: 700px;   /*寬度設定為900px*/
+        height: 50px;
+        margin: auto;   /*版面居中對齊*/
+        font-family: "微軟正黑體",Arial, Helvetica, sans-serif;
+        color: #333;
+        border: 15px solid transparent; /*網頁做外框的設定
+        -webkit-border-image: url(border/border1.png) 30 round; /* Safari 3.1-5 */
+      -o-border-image: url(border/border1.png) 30 round; /* Opera 11-12.1 */
+       border-image: url(border/border1.png) 30 round;
+       width: 100%;
+        min-height: auto;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        background-position: center;
+        background-image: url("4.jpg");
+        text-align: center;
+        color: white; 
+     } 
+       
+         
+
+#header {
+        height: 350px; /*高度設定*/
+        border: 15px solid transparent;
+      -webkit-border-image: url(border/border3.png) 40 round; /* Safari 3.1-5 */   
+       -o-border-image: url(border/border3.png) 40 round; /* Opera 11-12.1 */
+       border-image: url(border/border3.png) 40 round;
+       position: relative; /*背景圖片設定*/
+        width: 100%;
+        min-height: auto;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        background-position: center;
+        background-image: url("2.jpg");
+        text-align: center;
+        color: white; 
+        } 
+
+      header.masthead {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url("8.jpg");
+  text-align: center;
+  color: white; }
+  header.masthead .header-content {
+    position: relative;
+    text-align: center;
+    padding: 100px 15px 100px;
+    width: 100%; }
+    header.masthead .header-content .header-content-inner h1 {
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 30px; }
+    header.masthead .header-content .header-content-inner hr {
+      margin: 30px auto; }
+    header.masthead .header-content .header-content-inner p {
+      font-weight: 300;
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 16px;
+      margin-bottom: 50px; }
+  @media (min-width: 768px) {
+    header.masthead {
+      height: 100%;
+      min-height: 600px; }
+      header.masthead .header-content {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        padding: 0 50px; }
+        header.masthead .header-content .header-content-inner {
+          max-width: 1000px;
+          margin-left: auto;
+          margin-right: auto; }
+          header.masthead .header-content .header-content-inner h1 {
+            font-size: 50px; }
+          header.masthead .header-content .header-content-inner p {
+            font-size: 18px;
+            max-width: 80%;
+            margin-left: auto;
+            margin-right: auto; } }
+
+
+.btn-xl {
+  padding: 15px 30px; }
+
+
+
+#btn    {
+        height:  30px; /*高度設定為  30px，此部分也可不用設定*/
+        }
+
+#content {
+        /*可不用設定寬度*/
+        padding: 30px; /*文字與#content間的內距*/
+        font-size: 14px; /*字體大小*/
+        line-height: 2em;
+         border: 15px solid transparent;
+        width: 100%;
+        min-height: auto;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        background-position: center;
+        background-image: url("5.jpg");
+        text-align: center;
+        color: white; 
+        }  /*背景圖*/
+        
+        
+
+#footer {
+        font-size: 12px;
+        line-height: 1.5em;
+        color: #FFF;
+        background-image: url(images/footer.jpg); /*背景圖片設定*/
+        background-repeat: no-repeat; /*設定為背景不重複*/
+        padding:20px;
+         }
+
+#titile_bar {  /*標題的DIV*/
+        font-size: 16px;
+        font-weight: bolder;
+        line-height: 3em;
+        color: #FFF;
+        background-image: url(images/bottom.jpg);
+        background-repeat: no-repeat;
+        text-align:center; /*居中對齊*/
+        }
+  #sidebar_left{
+　background-color:#FFECC9;
+　width:120px;
+　height:400px;
+　text-align:center;
+　line-height:400px;
+　float:left;
+}
