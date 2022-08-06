@@ -219,6 +219,36 @@ h1, h2, h3, h4, h5, h6 {
   background: url("../img/my-bg.jpg") top center;
   background-size: cover;
 }
+#drone-box {
+    margin:10px auto;
+    transition:2s;
+    width:300px;
+    position:relative;
+}
+.drone-pic{
+  width: 100%;
+}
+.left-pic{
+  width:100px;
+  top:30px;
+  left: -8px;
+  position: absolute;
+  animation: rotation .3s linear infinite;
+}
+.right-pic{
+  width:100px;
+  top: 30px;
+  right:-8px;
+  position: absolute;
+  animation: rotation .3s linear infinite;
+}
+
+@keyframes rotation{
+  100%{
+    transform: rotateY(360deg);
+  }
+
+}
 
 #hero:before {
   content: "";
