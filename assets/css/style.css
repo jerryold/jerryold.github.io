@@ -4,7 +4,61 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+/*********************/
+/*      1.Banner test     */
+/*********************/
+.title2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 635px;
+  flex-direction: column;
+}
 
+.title2 h1 {
+  font-size: 60px;
+  font-family: var(--topic-font);
+  letter-spacing: var(--spacing);
+  text-shadow: var(--light-color) 0.1em 0.1em 0.2em;
+}
+
+.title2 h4 {
+  font-size: 35px;
+  font-family: var(--topic-font);
+  text-shadow: var(--light-color) 0.1em 0.1em 0.2em;
+}
+
+#particles-js {
+  position: absolute;
+  height: 635px;
+  width: 100%;
+}
+
+/*********************/
+/*     2.About       */
+/*********************/
+.code-set {
+  font-size: 5px;
+    line-height: 0.5;
+}
+/* code */
+.code-set {
+  font-size: var(--content-size);
+  line-height: 2.5;
+  word-spacing: 0px;
+}
+
+.code-verb {
+  color: #c7254e;
+}
+
+.code-mark {
+  color: var(--black-color);
+}
+
+.code-string {
+  color: #373add;
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
