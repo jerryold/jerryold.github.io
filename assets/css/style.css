@@ -222,9 +222,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .card .front-face{
   background: url('../img/Jerry.png');
+  /* background: url('../img/Jerry-back.png'); */
+  
 }
 .card .back-face{
   transform: rotateY(180deg);
+  /* background: url('../img/Jerry.png'); */
   background: url('../img/Jerry-back.png');
 }
 
@@ -243,16 +246,31 @@ h1, h2, h3, h4, h5, h6 {
 }
 .card .back-face h2{
   color: #fff;
-  font-size: 32px;
-  margin-top: 45%;
-  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  margin-top: 60%;
+  font-family: 'Brush Script MT';
 
 }
 
 .card .back-face p{
   color: #f1f1ff;
-  font-size: 18px;
-  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-family: 'Brush Script MT';
+}
+.card .front-face h2{
+  color: #f1f1ff;
+  font-size: 24px;
+  margin-top: 20%;
+  margin-bottom: 50%;
+  margin-right: 60%;
+  font-family: 'Garamond';
+
+}
+
+.card .front-face p{
+  color: #f1f1ff;
+  font-size: 20px;  
+  font-family: 'Garamond';
 }
 .card .icons{
   margin-top: 20px;
@@ -266,7 +284,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
   height: 40px;
   width: 40px;
-  font-size: 20px;
+  font-size: 28px;
   line-height: 40px;
   border-radius: 50%;
   transition: .3s;
@@ -297,9 +315,10 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: linear-gradient(
+  /* background: linear-gradient(
     #ffc6b9,#ffa693
-  );
+  ); */
+  background: #463432;
   overflow-y: auto;
 }
 
@@ -381,7 +400,9 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a, .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: 	#ff7f50;
+  color: 	#ad9f8c;
+  font-family: 'ProximaNovaRegular';
+  text-transform: uppercase;
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -389,9 +410,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a i, .nav-menu a:focus i {
-  font-size: 24px;
+  font-size: 40px;
   padding-right: 8px;
-  color: #ff7f50;
+  color: #ad9f8c;
+  text-transform: uppercase;
+  font-family: 'ProximaNovaRegular';
+  display: inline-block;
+	text-decoration: none;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
 }
 
 .nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
@@ -400,7 +429,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > a i {
-  color: #ff7f50;
+  color: #ad9f8c;
+  font-family: 'ProximaNovaRegular';
+  text-transform: uppercase;
+  
 }
 
 /* Mobile Navigation */
